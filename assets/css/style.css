@@ -216,12 +216,53 @@ body {
     border: 0 none;
   }
 
-/* @media screen and (max-width: 980px){
-.main-section{
-  margin: 0 0 40px -200px;
+@media screen and (max-width: 980px){
+h1,
+h2,
+h3{
+  color: blue;
 
   } 
 #logo{
-  margin-left: -200px;
+  background-color: blue;
 }
-} */
+footer{
+border-top: 8px solid blue;
+}
+nav{
+  margin-right: 50px;
+}
+} 
+
+@media screen and (max-width: 768px){
+  h1,
+  h2,
+  h3{
+    color: purple;
+  
+    } 
+  #logo{
+    background-color: purple;
+  }
+  footer{
+  border-top: 8px solid purple;
+  }
+  } 
+
+  @media screen and (max-width: 640px){
+    h1,
+    h2,
+    h3{
+      color: red;
+    
+      } 
+    #logo{
+      background-color: red;
+    }
+    footer{
+    border-top: 8px solid red;
+    }
+    nav{
+      margin-right: 100px;
+    }
+    } 
